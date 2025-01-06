@@ -126,7 +126,7 @@ span {
 }
 
 .home-img {
-  width: 40%;
+  width: 100%;
   text-align: right;
 }
 
@@ -649,11 +649,11 @@ footer h2 a {
   }
 
   .home-container h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .home-img img {
-    width: 500px;
+    width: 100%;
     border: 10px solid gray;
     border-radius: 50%;
   }
@@ -680,6 +680,10 @@ footer h2 a {
     grid-template-columns: 1fr;
   }
 
+  .home {
+    flex-direction: column;
+  }
+
   .home-img img {
     width: 80vw;
     margin-top: 8rem;
@@ -689,6 +693,10 @@ footer h2 a {
 @media screen and (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+
+  .home-img {
+    width: 100%;
   }
 
   .contact form .input-card input {
